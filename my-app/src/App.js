@@ -1,4 +1,6 @@
+import React from "react";
 import ExpenseItem from "./components/ExpenseItem";
+import "./components/Expenses.css";
 
 function App() {
   const expenses = [
@@ -49,7 +51,9 @@ function App() {
     />
   ));
 
-  return <div>{expensesComponent}</div>;
+  // return React.createElement('div', {className:expenses}, expensesComponent);
+
+  return <div className="expenses">{expensesComponent}</div>;
 }
 
 export default App;
