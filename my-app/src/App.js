@@ -1,8 +1,8 @@
 import React from "react";
-import ExpenseItem from "./components/ExpenseItem";
-import "./components/Expenses.css";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import "./components/Expenses/Expenses.css";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
